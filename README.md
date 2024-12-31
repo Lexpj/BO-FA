@@ -1,4 +1,7 @@
 # Comparison of High-Dimensional Bayesian Optimization Algorithms on BBOB
+NOTE: We do not claim ownership of most of this repository. Our additions include RDEI and RDPI. Full credits go to [the authors of this repository](https://github.com/MariaLauraSantoni/IOH-Profiler-HDBO-Comparison). 
+
+
 This repository contains the code used to generate the results in the paper Comparison of High-Dimensional Bayesian Optimization Algorithms on BBOB.
 
 It proposes a modular framework to make the implementation of several algorithms compared within the paper compatible
