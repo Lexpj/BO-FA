@@ -1,0 +1,3 @@
+suite = "unkown suite", funcId = 12, funcName = "BentCigar", DIM = 2, maximization = "F", algId = "RDUCB", algInfo = "algorithm_info"
+%
+data_f12_BentCigar/IOHprofiler_f12_DIM2.dat, 0:70|36.419184461

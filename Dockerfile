@@ -23,6 +23,8 @@ RUN unzip Bayesian-Optimization.zip
 RUN unzip GPy.zip
 RUN unzip GPyOpt.zip
 RUN unzip RDUCB.zip
+RUN unzip RDEI.zip
+RUN unzip RDPI.zip
 
 RUN mv bayes_optim /usr/local/lib/python3.10/site-packages/
 RUN rm -rf /usr/local/lib/python3.10/site-packages/skopt*
@@ -31,3 +33,5 @@ RUN mv GPy /usr/local/lib/python3.10/site-packages/
 RUN mv GPyOpt /usr/local/lib/python3.10/site-packages/
 RUN mv Bayesian-Optimization mylib/lib_BO_bayesoptim
 RUN mv RDUCB mylib/lib_RDUCB/HEBO
+RUN mv RDEI mylib/lib_RDEI/HEBO
+RUN mv RDPI mylib/lib_RDPI/HEBO
