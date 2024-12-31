@@ -888,7 +888,7 @@ def wrapopt(optimizer_name, func, ml_dim, ml_total_budget, ml_DoE_size, random_s
         return Py_CMA_ES_Wrapper(func=func, dim=ml_dim, ub=ub, lb=lb, total_budget=ml_total_budget,
                              random_seed=random_seed)
 
-    if optimizer_name == 'RDUCB':
+    if optimizer_name == 'RDUCB' or optimizer_name == "RDPI" or optimizer_name == "RDEI":
         return RDUCBWrapper(func=func, dim=ml_dim, ub=ub, lb=lb, total_budget=ml_total_budget, DoE_size=ml_DoE_size,
                              random_seed=random_seed)
     if optimizer_name == 'ALEBO':
