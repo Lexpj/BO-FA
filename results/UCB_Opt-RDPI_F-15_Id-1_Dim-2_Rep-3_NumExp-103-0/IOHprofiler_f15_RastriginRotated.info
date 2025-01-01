@@ -1,1 +1,3 @@
 suite = "unkown suite", funcId = 15, funcName = "RastriginRotated", DIM = 2, maximization = "F", algId = "RDPI", algInfo = "algorithm_info"
+%
+data_f15_RastriginRotated/IOHprofiler_f15_DIM2.dat, 0:70|10.111982127000001
