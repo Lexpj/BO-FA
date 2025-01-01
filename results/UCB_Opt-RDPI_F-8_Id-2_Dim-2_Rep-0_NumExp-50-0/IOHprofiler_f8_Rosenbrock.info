@@ -1,0 +1,1 @@
+suite = "unkown suite", funcId = 8, funcName = "Rosenbrock", DIM = 2, maximization = "F", algId = "RDPI", algInfo = "algorithm_info"

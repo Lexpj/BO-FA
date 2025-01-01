@@ -1,0 +1,3 @@
+"function evaluation" "current f(x)" "best-so-far f(x)" "current af(x)+b" "best af(x)+b" acq_opt_time model_fit_time cum_iteration_time
+1 11.092564961708035 11.092564961708035 -81.55743503829197 -81.55743503829197 None None None
+2 1.5791643040799954 1.5791643040799954 -91.07083569592001 -91.07083569592001 None None None

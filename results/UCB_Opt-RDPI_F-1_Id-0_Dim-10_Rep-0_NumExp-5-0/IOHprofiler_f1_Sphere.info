@@ -1,0 +1,1 @@
+suite = "unkown suite", funcId = 1, funcName = "Sphere", DIM = 10, maximization = "F", algId = "RDPI", algInfo = "algorithm_info"
