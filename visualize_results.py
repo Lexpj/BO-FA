@@ -65,7 +65,9 @@ for curfunc in FUNC:
                     pass
             
             ax.legend(fontsize=8)
-
+            ax.set_xlabel("Number of iterations")
+            ax.set_ylabel("Best found $f(x)$")
     fig.suptitle(f"Assessment on function F-{curfunc} in various dimensionalities and instances", fontsize=12)
+    
     plt.tight_layout()
     plt.savefig(f"./results/{curfunc}.png")
