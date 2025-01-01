@@ -3,7 +3,7 @@ import numpy as np
 import os
 import pandas as pd
 
-ALGS = ["RDUCB"]
+ALGS = ["RDUCB","RDPI","RDEI"]
 REP = [0,1,2,3,4] # implicit
 FUNC = [1,8,12,15,21]
 IDS = [0,1,2]
@@ -59,6 +59,7 @@ for curfunc in FUNC:
                 
                 try: # Could fail for some reason?
                     ax.plot(X, y_mu, label=f"{alg}")
+                    print(alg,X,y_mu)
                     ax.fill_between(X, y_mu-y_std, y_mu+y_std,alpha=0.2)
                 except:
                     pass
